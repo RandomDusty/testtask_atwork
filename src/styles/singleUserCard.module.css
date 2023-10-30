@@ -1,0 +1,93 @@
+.dataBlocks {
+	display: flex;
+	gap: 40px;
+}
+
+.settingsBlock {
+	box-sizing: border-box;
+	flex-direction: column;
+	background-color: rgba(253, 253, 253, 1);
+	display: flex;
+	width: 360px;
+	padding: 40px;
+	border-radius: 16px;
+	gap: 40px;
+}
+
+.cardInputsBlock {
+	background-color: rgba(253, 253, 253, 1);
+	padding: 40px;
+	border-radius: 16px;
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	flex-grow: 4;
+}
+
+.inputBlock {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 8px;
+}
+
+.heading {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.title {
+	text-align: left;
+	font-weight: 600px;
+	color: rgba(22, 22, 22, 1);
+}
+
+.input {
+	width: 340px;
+	height: 42px;
+	padding: 0px 8px 0px 16px;
+	border-radius: 50px;
+	border: 2px solid rgba(218, 218, 218, 1);
+	gap: 8px;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.backButton {
+	font-size: 20px;
+	font-weight: 600;
+	color: rgba(89, 89, 89, 1);
+	padding: 20px 0px 20px 0px;
+	display: flex;
+	gap: 8px;
+	width: fit-content;
+}
+
+.userCardImage {
+	width: 280px;
+	height: 485px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-radius: 8px;
+}
+
+.categories {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	text-align: left;
+	color: rgba(156, 156, 156, 1);
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.activeCategory {
+	font-weight: 600;
+	color: rgba(22, 22, 22, 1);
+}
+
+::placeholder {
+	color: red;
+	opacity: 1; /* Firefox */
+}
